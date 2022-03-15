@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>プロフィール登録</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="po">
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a href="#top">マイページ</a>
+                    <img class="top" src="https://school3.oohara.jp/taka/%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3/komyu.jpeg">
+                </li>
+            </ul>
+        </nav>
+        <ul class="logout">
+            <li>
+                <a href="#mypage">ログアウト</a>
+            </li>
+        </ul>
+    </div>
+    <ul class="peex">
+        <li>プロフィールの登録を行いましょう。</li>
+        <li>まずはプロフィール写真の登録を行います。</li>
+    </ul>
+    <div class="touroku">
+        <div class="up1">クリックで写真を登録</div>
+        <div id="preview"><img class="syoki" src="https://school3.oohara.jp/taka/%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3/smiley-559124_640.png"></div>
+        
+        <div class="upload">
+            <form>
+                <input type="file" id="input-file">
+            </form>
+        </div>
+
+    </div>
+    
+    <ul class="pclic">
+        <li>次にプロフィールの登録を行います。</li>
+        <li>各項目欄をクリックして入力して下さい。</li>
+    </ul>
+    
+    
+    <div class="title">
+    <table border="3">
+      <tr><th colspan="2">プロフィール</th></tr>
+      
+    <tr><th>名前</th><th><input placeholder="名前" class="tc"></th>   </tr>
+    <tr><th>性別</th><th> <input type="radio" name="sex" value="男性">男性
+		<input type="radio" name="sex" value="女性">女性</th>
+    <tr><th>住んでいる場所</th><th>
+    <tr><th>趣味</th><th> <textarea placeholder="趣味"　class="syumi"></textarea></th>
+      </table>
+      </div>
+   
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+
+</html>
+
