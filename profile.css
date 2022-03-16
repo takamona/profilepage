@@ -133,3 +133,25 @@ nav li {
 .title{
   margin-left: 200px;
 }
+
+.example{
+    width:500px;
+}
+
+.nyuuryoku{
+    list-style: none;
+}
+
+.kakunin{
+    background-color: black;
+    width: 400px;
+    line-height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
